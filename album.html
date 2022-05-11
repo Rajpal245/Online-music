@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- APlayer CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"/>
+
+    <title>Online music streaming website using html,css And javascript</title>
+    <style>
+
+
+    	body
+
+
+    	{
+    		background-color: #f7f7f7;
+    		font-family: Open sans;
+    	}
+    	img{
+    		width: 100%;
+    		min-height: 250px;
+    	}
+    	.main{
+    		padding: 40px 0;
+    	}
+    	.col-md-3{
+    		margin-bottom: 40px;
+    	}
+    	.album-poster{
+    		position: relative;
+    		display: block;
+    		border-radius: 50px;
+    		overflow: hidden;
+    		box-shadow: 0 15px 35px #3d2173a1;
+    		transition: all ease 0.4s;
+    	}
+    	.album-poster:hover{
+    		box-shadow: none;
+    		transform: scale(0.98) translateY(5px);
+    	}
+    	h3{
+    		font-size: 34px;
+    		margin-bottom: 34px;
+    		border-bottom: 4px solid #e6e6e6;
+    		padding-bottom: 15px;
+    	}
+    	p{
+    		font-size: 15px;
+    	}
+    	h4{
+    		font-size: 16px;
+    		text-transform: uppercase;
+    		margin-top: 15px;
+    		font-weight: 700;
+    	}
+		
+
+		/*default is hide music player*/
+		#aplayer{
+			position: fixed;
+			bottom: -100%;
+			left: 0;
+			width: 100%;
+			margin: 0;
+			box-shadow: 0 -2px 2px #dadada;
+			background-color: #fff;
+			transition: all ease 0.5s;
+		}
+
+
+
+    </style>
+ 	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+	<li class="nav-item">
+        <a class="nav-link" href="search.html">Search</a>
+      </li>
+    
+      
+	<li class="nav-item">
+        <a class="nav-link" href="album.html">Album</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+<br>
+
+<div class="container">
+<center>
+<h1 style="background-color:red;">
+<b>ALBUMS IN 2022</b><br>      
+</h1>
+</center>
+</div>
+
+
+<div class="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>COMING SOON.....</h3>
+			</div>
+			<div class="col-md-3">
+				<a href="javascript:void();" class="album-poster" data-switch="0">
+					<img src="66.jpeg" alt="">
+				</a>
+				<h4>THABBA HU ZULFAN</h4>
+				<p>Arjan Dhillon</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="1">
+					<img src="77.jpeg" alt="">
+				</a>
+				<h4>I AM ICON</h4>
+				<p>Bohemia </p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="2">
+					<img src="99.jpeg" alt="">
+				</a>
+				<h4>MOB</h4>
+				<p>Jassa Dhillon</p>
+			</div>
+
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="3">
+					<img src="88.jpeg" alt="">
+				</a>
+				<h4>WAY AHEAD</h4>
+				<p>Karan Aulja </p>
+			</div>
+
+				<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="4">
+					<img src="100.jpeg" alt="">
+				</a>
+				<h4>JATT KHENDE NE </h4>
+				<p>Bhinder BURJ & Parmish Verma </p>
+			</div>
+
+		
+		</div>
+
+	
+</html>

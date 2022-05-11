@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8869-1">
+<title>search</title>
+<style>
+body { 
+   
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-color: #f5455325;
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  font-size: 40px;
+}
+
+body { 
+  color: white; 
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 28%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color:whitesmoke;">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+  <li class="nav-item">
+        <a class="nav-link" href="search.html">Search</a>
+      </li> 
+  <li class="nav-item">
+        <a class="nav-link" href="album.html">Album</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+<br>
+
+<div class="container">
+ <center>
+<h1 style="background-color:red;"
+class="p1"><b>SEARCH</b><br></h1>
+<div class="container">
+  <form action="Login" method="post">
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" id="Search" placeholder="search" name="txtUsername">
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">SEARCH</button>
+  </form>
+</div>
+
+</center>
+</div>
+</center> 
+</body>
+</html>

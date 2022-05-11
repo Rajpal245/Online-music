@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<style> 
+
+body { 
+  background-color: #f5455325;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+}
+</style>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+  <li class="nav-item">
+        <a class="nav-link" href="search.html">Search</a>
+      </li>
+        <a class="nav-link" href="album.html">Album</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+<br>
+<div class="container">
+<center>
+<h1 style="background-color:red";">
+<b>LOG IN</b><br>      
+</h1>
+<h3 style="color:white;">Dear user,Login here!</h3>
+</center>
+</div>
+<div class="container">
+  <form action="Login" method="post">
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" id="Username" placeholder="Enter username" name="txtUsername">
+      </div>
+      <div class="col">
+        <input type="password" class="form-control" placeholder="Enter password" name="password">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">LOGIN</button>
+  </form>
+</div>
+</body>
+</html>
